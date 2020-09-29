@@ -6,7 +6,7 @@ const Routes = () => {
 
   const links = urls.map(({url, component}) => {
     return(
-      <Route path={url} component={component} exact key={url}/>
+      <Route exact path={url} component={component} key={url}/>
     )
   })
 
@@ -16,5 +16,4 @@ const Routes = () => {
     </Switch>
   )
 }
-console.log(Routes)
 export default Routes;

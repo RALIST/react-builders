@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, ModalDialog, Form, Button } from "react-bootstrap";
+import { Modal, Form, Button } from "react-bootstrap";
 import { connect } from 'react-redux';
 import { modalClosed } from "../../actions";
 
@@ -24,7 +24,6 @@ const ModalCall = ({modalShow, modalClosed}) => {
   )
 }
 const mapStateToProps = ({modalShow}) => {
-  console.log(modalShow);
   return {
     modalShow: modalShow
   }

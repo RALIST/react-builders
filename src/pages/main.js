@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
+import { Container, Jumbotron, Button } from 'react-bootstrap';
 import './main.scss'
 import { connect } from 'react-redux';
 import { modalOpened } from "../actions";

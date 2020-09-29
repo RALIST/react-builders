@@ -7,7 +7,7 @@ import urls from '../../routes/urls'
 const HeaderNavBar = () => {
   const links = urls.map(({name, url}) => {
     return(
-      <NavLink to={url} className='nav-link' key={url}>
+      <NavLink exact to={url} className='nav-link' key={url}>
         {name}
       </NavLink>
     )
