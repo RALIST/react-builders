@@ -1,1 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
+
+nav.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  .nav-link.active {
+    background-color: $warning;
+  }
+  .nav-link:hover{
+    background-color: $warning;
+  }
+}
+#achiv {
+  .card {
+    border-top: none;
+    border-left: none;
+    &:last-of-type {
+      border-right: none;
+    }
+  }
+  &:last-child{
+      border-right: none;
+    }
+}

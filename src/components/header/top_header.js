@@ -11,7 +11,7 @@ const TopHeader = ({modalOpened}) => {
             <div className="lead">
               +7 (912) 777-77-77
             </div>
-            <Button variant={'outline-primary'} onClick={modalOpened}>
+            <Button variant='link' size='sm' onClick={modalOpened} className='text-warning'>
               Заказать звонок
             </Button>
           </Col>

@@ -1,10 +1,12 @@
 import React from "react";
-
+import {Container, Jumbotron } from "react-bootstrap";
 const Projects = () => {
   return(
-    <div>
-      <h1>Проектирование</h1>
-    </div>
+    <Jumbotron fluid>
+      <Container>
+        <h1 className='text-center'>Проектирование</h1>
+      </Container>
+    </Jumbotron>
   )
 }
 export default Projects;

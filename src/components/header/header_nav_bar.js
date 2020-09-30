@@ -18,7 +18,7 @@ const HeaderNavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Container>
-            <Nav className='w-100 justify-content-between'>
+            <Nav justify className='w-100'>
               { [...links] }
             </Nav>
           </Container>

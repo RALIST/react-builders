@@ -15,7 +15,7 @@ const project = {
   component: pages.Projects
 }
 const communications = {
-  name: 'Комуникации',
+  name: 'Коммуникации',
   url: '/kommunikacii-dlya-doma',
   component: pages.Communications
 }
@@ -25,9 +25,14 @@ const contacts = {
   component: pages.Contacts
 }
 const services = {
-  name: 'Вутренняя отделака',
+  name: 'Вутренняя отделка',
   url: '/vnutrenya-otdelka-doma',
   component: pages.Services
+}
+const prices = {
+  name: 'Цены',
+  url: '/ceny',
+  component: pages.Prices
 }
 
 const urls = [
@@ -36,6 +41,7 @@ const urls = [
   project,
   communications,
   services,
+  prices,
   contacts
   ]
 

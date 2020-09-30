@@ -1,12 +1,13 @@
 import React from "react";
+import {Container, Jumbotron } from "react-bootstrap";
 
 const Services = () => {
-  return(
-    <div>
-      <h1>
-        Внутренняя отделка
-      </h1>
-    </div>
+  return (
+    <Jumbotron fluid>
+      <Container>
+        <h1 className='text-center'>Внутренняя отделка</h1>
+      </Container>
+    </Jumbotron>
   )
 }
 export default Services;
